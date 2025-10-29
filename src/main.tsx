@@ -16,7 +16,7 @@ createRoot(document.getElementById('root')!).render(
     <QueryClientProvider client={queryClient}>
       <WagmiConfig config={wagmiConfig}>
         <RainbowKitProvider>
-          <BrowserRouter basename="blockchain">
+          <BrowserRouter basename="blockchai">
             <App />
           </BrowserRouter>
         </RainbowKitProvider>
